@@ -73,8 +73,8 @@ const FormLogin = () => {
      <a className="text-gray flex justify-end mb-16" href="#">Esqueci a senha</a>
       <Button
         type="submit"
-        className="md"
-        disabled={!validationSchema.isValidSync(valueForm)}
+        className="btn button-login md "
+       // disabled={!validationSchema.isValidSync(valueForm)}
       >
         Entrar
       </Button >
