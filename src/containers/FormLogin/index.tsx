@@ -32,10 +32,10 @@ const FormLogin = () => {
   const onSubmit = (data: FormLoginData) => {
     ServiceLogin.login(data)
       .then(() => {
-        return alert("teste");
+        return alert("Logado");
       })
       .catch(() => {
-        return alert("teste");
+        return alert("Logado");
       });
   };
 
