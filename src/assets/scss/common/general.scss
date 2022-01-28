@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  font-family: $font-display;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input, textarea, select{
+  &:focus{
+    outline: none;
+  }
+}
+
+a {
+  position: relative;
+  z-index: 1;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+
+
+
+
+// .position-left{
+//   position: absolute;
+//   bottom: 0;
+//   display: flex;
+//   left: 335px;
+//   margin: 0;
+// }

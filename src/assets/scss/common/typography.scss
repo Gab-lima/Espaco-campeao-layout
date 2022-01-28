@@ -1,0 +1,105 @@
+//sizes
+
+.heading-01 {
+  font-size: 36px;
+  letter-spacing: -0.02em;
+
+}
+
+
+.p-01,
+p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.p-2{
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.p-03 {
+  font-size: 16px;
+  letter-spacing: -0.02em;
+}
+
+a{
+  text-decoration: none;
+}
+
+.footer {
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+}
+
+.W-tamanho {
+  width: 100%;
+}
+//transformação da fonte
+.uppercase {
+  text-transform: uppercase !important;
+}
+.capitalize {
+  text-transform: capitalize !important;
+}
+.transform-none {
+  text-transform: none !important;
+}
+
+// alinhamento do texto
+.text-center {
+  text-align: center !important;
+}
+.text-left {
+  text-align: left !important;
+}
+.text-right {
+  text-align: right !important;
+}
+
+.text-end {
+  text-align: end !important;
+}
+.text-centered {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+
+// Weight
+.text-light {
+  font-weight: 300 !important;
+}
+.text-normal {
+  font-weight: 500 !important;
+}
+.text-semibold {
+  font-weight: 600 !important;
+}
+.text-bold {
+  font-weight: 700 !important;
+}
+
+
+
+//colors
+
+.text-blue {
+  color: #57C3E6 !important;
+}
+.text-black {
+  color: #9FDDF1 !important;
+}
+
+.text-gray {
+  color: #B5B5B5;
+}
+
+.text-dark-gray{
+  color: #8A8A8A;
+}
+
+.text-red {
+  color: #D70F22;
+}

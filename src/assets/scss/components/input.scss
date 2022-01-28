@@ -1,0 +1,59 @@
+.containerInput {
+  position: relative;
+
+  .input-container-object{
+    position: relative;
+
+    .icon-input{
+      position: absolute;
+      z-index: 2;
+      top: calc(50% - 15px);
+      left: 24px;
+      height: 30px;
+      width: 18px;
+      object-fit: contain;
+      pointer-events: none;
+    }
+
+    .withIcon{
+      padding-left: 55px;
+    }
+  }
+
+  .inputField {
+    position: relative;
+    outline: none;
+    padding: 13px 16px;
+    color: #404040;
+    width: 100%;
+    appearance: none;
+    -webkit-appearance: none;
+
+    border: 1px solid #EAEAEA;
+    border-radius: 12px;
+
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.4px;
+    color: #2e444d;
+
+    &::placeholder {
+      font-size: 16px;
+      line-height: 22px;
+      letter-spacing: -0.4px;
+      color: #BFBFBF;
+    }
+
+  }
+
+  label {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.4px;
+    color: #404040;
+    margin-bottom: 8px;
+    display: block;
+  }
+
+}
+
